@@ -15,7 +15,7 @@ import random
 import sys
 import os
 
-myDir = '/Users/oscarbello/Documents/python/pygame'
+myDir = '/Users/mypygame'
 os.chdir(myDir)
 
 sightPic = 'ironSights.tif'
