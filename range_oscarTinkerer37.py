@@ -55,6 +55,8 @@ class Irons(pygame.sprite.Sprite): #inherits from Sprite class
         self.rect.center = pygame.mouse.get_pos()
 
 class Dummy(pygame.sprite.Sprite):
+  #separated actual impact point from iron sights, otherwise merely placing any portion of sight picture on target
+  #and clicking will score a hit
     def __init__(self):
         super().__init__()
         self.roundsFired = 0
