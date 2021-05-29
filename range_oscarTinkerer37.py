@@ -201,8 +201,8 @@ while True:
                 #target_group.update()
                 numHits = random.randint(1, 10)
     pygame.display.flip() #
-    win.fill((0, 0, 0))
-    #win.blit(background, (0,0))
+    #win.fill((0, 0, 0))
+    win.blit(background, (0,0))
     
     target_group.draw(win)
     ironSight_group.draw(win)#updates entire group (all instances)
