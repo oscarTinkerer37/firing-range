@@ -1,6 +1,6 @@
 #Shooting range
 #10.05.2021
-#inspired by Clean code's sprites tutorials
+#inspired by Clear code's sprites tutorials (https://youtu.be/hDu8mcAlY4E)
 #12.05.2021 Works well for single target. Still need to decompose to account for head-shoulders cutout on target.
 #15.05.2021 Implemented drop animation and reset function. Still need to account for head-shoulders cutout.
 #15.05.2021 learning to use pygame.draw.polygon(); got body and head polygons working for bodyshot/headshot (insta-kill) working.
